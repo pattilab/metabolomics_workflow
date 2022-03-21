@@ -1,0 +1,10 @@
+#!/bin/bash
+#BSUB -q general
+#BSUB -g /estancliffe/gjpattij
+#BSUB -M '16GB'
+#BSUB -N 8
+#BSUB -R 'rusage[mem=16GB]'
+#BSUB -R 'span[hosts=1]'
+#BSUB -a 'docker(estan1234/example_decoid:test)'
+
+cd /storage1/fs1/gjpattij/Active/Ethan/polar_metabolite_identification/run_scripts/
