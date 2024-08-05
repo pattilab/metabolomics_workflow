@@ -1,4 +1,5 @@
 # An untargeted metabolomics workflow that scales to thousands of samples for population-based studies
+[![DOI](https://zenodo.org/badge/471426338.svg)](https://zenodo.org/doi/10.5281/zenodo.13224269)
 
 This repository contains code/scripts/notebooks used to process untargeted metabolomics data at scale. 
 
